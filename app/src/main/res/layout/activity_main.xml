@@ -24,7 +24,6 @@
             android:backgroundTint="@android:color/white"
             android:drawableTop="@drawable/img_search"
             android:paddingLeft="50dp"
-
             >
 
         </androidx.appcompat.widget.AppCompatButton>
@@ -115,16 +114,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         >
+
         <ImageView
+            android:id="@+id/img_subway"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/img_subway"
-            android:src="@drawable/img_subway"
-            >
-
-        </ImageView>
-
+            android:src="@drawable/img_subway"></ImageView>
     </LinearLayout>
-
-
 </LinearLayout>

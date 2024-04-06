@@ -1,4 +1,4 @@
-package kr.co.hanbit.subway
+package kr.co.hanbit.subway.model
 
 import com.google.gson.annotations.SerializedName
 
@@ -16,7 +16,7 @@ data class Contents(
     @SerializedName("subwayLine") val subwayLine: String,
     @SerializedName("stationName") val stationName: String,
     @SerializedName("stationCode") val stationCode: String,
-    @SerializedName("stat") val stats: List<Stat>,
+    @SerializedName("stat") val stat: List<Stat>,
     @SerializedName("statStartDate") val statStartDate: String,
     @SerializedName("statEndDate") val statEndDate: String
 )
